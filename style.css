@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background: rgb(147, 127, 221);
+}
+.container {
+    width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.inputbox {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+.inputbox input, button {
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.inputbox button {
+    background: rgb(222, 97, 52);
+    color: white;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+
+.noteBox li {
+    list-style: none;
+    background: white;
+    margin: 10px 0;
+    padding: 10px;
+    height: 200px;
+    border-radius: 12px;
+    font-size: 20px;
+    position: relative;
+}
+
+.noteBox span {
+    position: absolute;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    /* background: rgb(206, 204, 204); */
+}
+.noteBox span:hover {
+    background: rgb(206, 204, 204);
+}
+
